@@ -1,6 +1,7 @@
 "use client";
 
-import ParticleBackground3 from "../components/particle-background-3";
+import { login } from "./action";
+import ParticleBackground3 from "../../components/particle-background-3";
 import { Typewriter } from "react-simple-typewriter";
 import Link from "next/link";
 
@@ -56,6 +57,8 @@ export default function Login() {
                                 placeholder="Email"
                                 autoComplete="off"
                                 readOnly
+                                id = "email"
+                                name = "email"
                                 onFocus={(e) => e.target.removeAttribute("readOnly")}
                                 className="w-full p-3 pl-10 rounded border-none bg-black bg-opacity-20 text-white outline-none focus:border-black placeholder:text-white appearance-none"
                             />
@@ -98,6 +101,8 @@ export default function Login() {
                                 placeholder="Password"
                                 autoComplete="new-password"
                                 readOnly
+                                id = "password"
+                                name = "password"
                                 onFocus={(e) => e.target.removeAttribute("readOnly")}
                                 className="w-full p-3 pl-10 rounded border-none bg-black bg-opacity-20 text-white outline-none focus:border-black placeholder:text-white appearance-none"
                             />
@@ -106,12 +111,13 @@ export default function Login() {
                         <button 
                             className="w-full md:w-[50%] mx-auto group relative inline-flex h-14 items-center justify-center overflow-hidden rounded-md border border-[#161616] px-10 font-medium text-white transition-all duration-100 [box-shadow:5px_5px_rgb(82_82_82)] hover:translate-x-[3px] hover:translate-y-[3px] hover:[box-shadow:0px_0px_rgb(82_82_82)] bg-[#161616] mt-7 text-lg"
                             type="submit"
+                            formAction = {login}
                         >
                             <b>Sign in!</b>
                         </button>
                     </form>
                     <Link href ="/register" className = "text-base mt-5">
-                        <span className="mt-5 relative cursor-pointer after:block after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full">
+                        <span className="mt-5 relative cursor-pointer after:block after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full">
                             Don't have an account?
                         </span>
                     </Link>

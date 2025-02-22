@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
+
 const Navbar = () => {
     return (
         <nav className="text-white p-4 bg-transparent top-0 left-0 w-full z-50">
@@ -49,7 +50,7 @@ const Navbar = () => {
                                         name="text"
                                         className="input font-semibold text-lg h-full opacity-90 w-full px-16 py-3 rounded-xl bg-black"
                                     >
-                                        Sign Up
+                                        Open
                                     </button>
                                 </div>
                                 <div className="absolute duration-1000 group-hover:animate-spin w-full h-[100px] bg-gradient-to-r from-blue-200 to-purple-200 blur-[30px]"></div>

@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@splinetool/react-spline": "^4.0.0",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.48.1",
     "@tsparticles/engine": "^3.8.1",
     "@tsparticles/react": "^3.0.0",
     "framer-motion": "^12.4.3",

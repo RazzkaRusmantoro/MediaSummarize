@@ -1,11 +1,11 @@
 "use client";
 
-import ParticleBackground from "../components/particle-background";
+import { signup } from './action';
+import ParticleBackground from "../../components/particle-background";
 import { Typewriter } from "react-simple-typewriter";
-import Navbar from "../components/navbar";
 import Link from 'next/link';
 
-export default function Login() {
+export default function Register() {
     return (
         <main className="flex flex-col md:flex-row min-h-screen">
             <ParticleBackground />
@@ -49,10 +49,12 @@ export default function Login() {
                                 <path d="M512 512a192 192 0 1 0 0-384 192 192 0 0 0 0 384zm0 64a256 256 0 1 1 0-512 256 256 0 0 1 0 512zm320 320v-96a96 96 0 0 0-96-96H288a96 96 0 0 0-96 96v96a32 32 0 1 1-64 0v-96a160 160 0 0 1 160-160h448a160 160 0 0 1 160 160v96a32 32 0 1 1-64 0z"/>
                             </svg>
                             <input
-                                type="text"
+                                type="text" required
                                 placeholder="Full Name"
                                 autoComplete="off"
                                 readOnly
+                                id = "name"
+                                name = "name"
                                 onFocus={(e) => e.target.removeAttribute("readOnly")}
                                 className="w-full p-3 pl-10 rounded border-none bg-black bg-opacity-20 text-white outline-none focus:border-black placeholder:text-white appearance-none"
                             />
@@ -69,10 +71,12 @@ export default function Login() {
                                 <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
                             </svg>
                             <input
-                                type="email"
+                                type="email" required
                                 placeholder="Email"
                                 autoComplete="off"
                                 readOnly
+                                id = "email"
+                                name = "email"
                                 onFocus={(e) => e.target.removeAttribute("readOnly")}
                                 className="w-full p-3 pl-10 rounded border-none bg-black bg-opacity-20 text-white outline-none focus:border-black placeholder:text-white appearance-none"
                             />
@@ -111,10 +115,12 @@ export default function Login() {
                                 />
                             </svg>
                             <input
-                                type="password"
+                                type="password" required
                                 placeholder="Password"
                                 autoComplete="new-password"
                                 readOnly
+                                id = "password"
+                                name = "password"
                                 onFocus={(e) => e.target.removeAttribute("readOnly")}
                                 className="w-full p-3 pl-10 rounded border-none bg-black bg-opacity-20 text-white outline-none focus:border-black placeholder:text-white appearance-none"
                             />
@@ -123,6 +129,7 @@ export default function Login() {
                         <button 
                             className="w-full md:w-[50%] mx-auto group relative inline-flex h-14 items-center justify-center overflow-hidden rounded-md border border-neutral-200 bg-transparent px-10 font-medium text-black transition-all duration-100 [box-shadow:5px_5px_rgb(82_82_82)] hover:translate-x-[3px] hover:translate-y-[3px] hover:[box-shadow:0px_0px_rgb(82_82_82)] bg-white mt-7 text-lg"
                             type="submit"
+                            formAction = {signup}
                         >
                             <b>Sign up!</b>
                         </button>
