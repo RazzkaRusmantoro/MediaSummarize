@@ -1,0 +1,16 @@
+{
+  "node": {
+    "0022afb7701b0383f27ee44192713b1084dfc864a8": {
+      "workers": {
+        "app/(routes)/confirm/page": {
+          "moduleId": "[project]/.next-internal/server/app/(routes)/confirm/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/auth/getUser.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(routes)/confirm/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}

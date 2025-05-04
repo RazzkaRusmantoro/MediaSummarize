@@ -1,0 +1,16 @@
+{
+  "node": {
+    "00aa46d0931cb2aeaf3e3e348d798a4c05932c14af": {
+      "workers": {
+        "app/(routes)/private/page": {
+          "moduleId": "[project]/.next-internal/server/app/(routes)/private/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/(routes)/logout/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(routes)/private/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}

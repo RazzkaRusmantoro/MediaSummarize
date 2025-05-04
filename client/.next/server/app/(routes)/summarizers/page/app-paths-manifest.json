@@ -1,0 +1,3 @@
+{
+  "/(routes)/summarizers/page": "app/(routes)/summarizers/page.js"
+}

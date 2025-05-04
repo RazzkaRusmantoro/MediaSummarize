@@ -1,0 +1,38 @@
+{
+  "node": {
+    "004d6431bcbefe807722d048aeb118a820d91c1d41": {
+      "workers": {
+        "app/(routes)/pdf-summarizer/page": {
+          "moduleId": "[project]/.next-internal/server/app/(routes)/pdf-summarizer/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/auth/getUser.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/(routes)/youtube-summarizer/page": {
+          "moduleId": "[project]/.next-internal/server/app/(routes)/youtube-summarizer/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/auth/getUser.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/auth/getUser.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(routes)/pdf-summarizer/page": "rsc",
+        "app/(routes)/youtube-summarizer/page": "rsc",
+        "app/page": "rsc"
+      }
+    },
+    "002e7d2a510e5d82546707d62466c21c9bc6d53f9e": {
+      "workers": {
+        "app/(routes)/summarizers/page": {
+          "moduleId": "[project]/.next-internal/server/app/(routes)/summarizers/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/(routes)/logout/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(routes)/summarizers/page": "rsc"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "/Z24vMavCFLOL0A2UcVGaHUp5wuwn+/IuDhgShvmUjA="
+}

@@ -1,0 +1,3 @@
+{
+  "/(routes)/pdf-summarizer/page": "app/(routes)/pdf-summarizer/page.js"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/speci/Music/MediaSummarize/src/app/page.tsx"],"sourcesContent":["'use client';\n\nimport Spline from '@splinetool/react-spline/next';\nimport Navbar from \"./components/navbar\";\n\nexport default function Home() {\n  return (\n    <>\n      <main>\n      <Spline\n        scene=\"https://prod.spline.design/y1M4osTxZ95IiCWb/scene.splinecode\" \n      />\n      </main>\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAKe,SAAS;IACtB,qBACE;kBACE,cAAA,8OAAC;sBACD,cAAA,8OAAC,kLAAA,CAAA,UAAM;gBACL,OAAM;;;;;;;;;;;;AAKd"}},
+    {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

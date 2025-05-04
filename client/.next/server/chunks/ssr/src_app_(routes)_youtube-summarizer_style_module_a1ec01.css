@@ -1,0 +1,24 @@
+/* [project]/src/app/(routes)/youtube-summarizer/style.module.css [app-client] (css) */
+.style-module__jYw5XW__loader {
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #fff;
+  --_m: conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;
+  -webkit-mask: var(--_m);
+  mask: var(--_m);
+  -webkit-mask-composite: source-out;
+  mask-composite: subtract;
+  animation: 1s linear infinite style-module__jYw5XW__l3;
+}
+
+@keyframes style-module__jYw5XW__l3 {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+
+/*# sourceMappingURL=src_app_%28routes%29_youtube-summarizer_style_module_a1ec01.css.map*/

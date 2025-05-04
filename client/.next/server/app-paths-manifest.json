@@ -1,0 +1,9 @@
+{
+  "/(routes)/pdf-summarizer/page": "app/(routes)/pdf-summarizer/page.js",
+  "/(routes)/summarizers/page": "app/(routes)/summarizers/page.js",
+  "/(routes)/youtube-summarizer/page": "app/(routes)/youtube-summarizer/page.js",
+  "/api/proxy/chat/route": "app/api/proxy/chat/route.js",
+  "/api/proxy/summarize/route": "app/api/proxy/summarize/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/speci/Music/MediaSummarize/src/app/page.tsx"],"sourcesContent":["// Add this to the top to mark the component as a client component\n'use client';\n\nimport Spline from '@splinetool/react-spline/next';\nimport Navbar from \"./components/navbar\";\n\nexport default function Home() {\n  return (\n    <>\n      <main>\n        <div className=\"spline-container\">\n          <Spline\n            scene=\"https://prod.spline.design/ct6Gx4o1phGGpVp6/scene.splinecode\"\n          />\n        </div>\n      </main>\n      <style jsx>{`\n        main {\n          position: relative;\n          z-index: 1;\n        }\n\n        .spline-container {\n          position: absolute;\n          top: 0;\n          left: 0;\n          width: 100%;\n          height: 100vh;\n          z-index: -1; /* Ensures Spline is behind the content */\n        }\n\n        /* Optional: You can adjust the navbar style as needed */\n        .navbar {\n          position: relative;\n          z-index: 2; /* Ensures Navbar is on top of Spline */\n        }\n      `}</style>\n    </>\n  );\n}\n"],"names":[],"mappings":"AAAA,kEAAkE;;;;;;AAGlE;AAFA;;;;AAKe,SAAS;IACtB,qBACE;;0BACE,8OAAC;;0BACC,cAAA,8OAAC;8DAAc;8BACb,cAAA,8OAAC,kLAAA,CAAA,UAAM;wBACL,OAAM;;;;;;;;;;;;;;;;;;;;;;AA2BlB"}},
+    {"offset": {"line": 57, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

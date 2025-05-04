@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/speci/Music/MediaSummarize/src/app/login/page.tsx"],"sourcesContent":["\"use client\";\r\n\r\nexport default function Login() {\r\n    return (\r\n        <div>\r\n            <h1>Login</h1>\r\n        </div>\r\n    );\r\n}"],"names":[],"mappings":";;;;AAAA;;AAEe,SAAS;IACpB,qBACI,6LAAC;kBACG,cAAA,6LAAC;sBAAG;;;;;;;;;;;AAGhB;KANwB"}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

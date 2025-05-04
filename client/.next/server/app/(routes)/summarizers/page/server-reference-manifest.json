@@ -1,0 +1,16 @@
+{
+  "node": {
+    "002e7d2a510e5d82546707d62466c21c9bc6d53f9e": {
+      "workers": {
+        "app/(routes)/summarizers/page": {
+          "moduleId": "[project]/.next-internal/server/app/(routes)/summarizers/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/(routes)/logout/action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(routes)/summarizers/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}

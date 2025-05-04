@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/speci/Music/MediaSummarize/client/src/app/%28routes%29/youtube-summarizer/style.module.css"],"sourcesContent":[".loader {\r\n    width: 24px;\r\n    height: 24px;\r\n    padding: 2px;\r\n    aspect-ratio: 1;\r\n    border-radius: 50%;\r\n    background: white;\r\n    --_m: conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;\r\n    -webkit-mask: var(--_m);\r\n            mask: var(--_m);\r\n    -webkit-mask-composite: source-out;\r\n            mask-composite: subtract;\r\n    animation: l3 1s infinite linear;\r\n  }\r\n  \r\n  @keyframes l3 {\r\n    to {\r\n      transform: rotate(1turn);\r\n    }\r\n  }"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;AAeE"}},
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

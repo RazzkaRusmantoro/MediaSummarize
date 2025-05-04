@@ -1,0 +1,16 @@
+{
+  "node": {
+    "0022afb7701b0383f27ee44192713b1084dfc864a8": {
+      "workers": {
+        "app/youtube-summarizer/page": {
+          "moduleId": "[project]/.next-internal/server/app/youtube-summarizer/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/auth/getUser.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/youtube-summarizer/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}

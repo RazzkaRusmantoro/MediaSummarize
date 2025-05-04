@@ -1,0 +1,16 @@
+{
+  "node": {
+    "004d6431bcbefe807722d048aeb118a820d91c1d41": {
+      "workers": {
+        "app/(routes)/pdf-summarizer/page": {
+          "moduleId": "[project]/.next-internal/server/app/(routes)/pdf-summarizer/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/app/auth/getUser.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(routes)/pdf-summarizer/page": "rsc"
+      }
+    }
+  },
+  "edge": {}
+}
