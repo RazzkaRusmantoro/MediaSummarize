@@ -1,4 +1,4 @@
-🎯 MediaSummarize: AI-Powered Summarization Platform
+# 🎯 MediaSummarize: AI-Powered Summarization Platform
 MediaSummarize is a full-stack AI-powered web application designed to intelligently summarize YouTube videos and PDF documents. Built with a modern tech stack including Next.js, Flask, and Gemini API, the platform leverages machine learning and natural language processing techniques to deliver concise, high-quality summaries and an interactive user experience.
 
 🚀 Tech Stack
